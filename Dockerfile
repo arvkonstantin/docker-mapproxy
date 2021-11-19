@@ -57,8 +57,6 @@ COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["mapproxy"]
 
-USER mapproxy
-
 # Why needed? See examples.
 # VOLUME ["/mapproxy"]
 EXPOSE 8080
