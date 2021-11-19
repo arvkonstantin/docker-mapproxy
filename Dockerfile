@@ -57,7 +57,7 @@ COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["mapproxy"]
 
-COPY config ~/.aws/
+COPY config /root/.aws/
 
 # Why needed? See examples.
 # VOLUME ["/mapproxy"]
