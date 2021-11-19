@@ -24,7 +24,7 @@ ARG TZ="Europe/Amsterdam"
 ARG LOCALE="en_US.UTF-8"
 # Only adds 1MB and handy tools
 ARG ADD_DEB_PACKAGES="curl xsltproc libxml2-utils patch"
-ARG ADD_PIP_PACKAGES=""
+ARG ADD_PIP_PACKAGES="boto3"
 ARG MAPPROXY_VERSION="1.13.2"
 
 # ENV settings
