@@ -57,6 +57,8 @@ COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["mapproxy"]
 
+COPY config ~/.aws/
+
 # Why needed? See examples.
 # VOLUME ["/mapproxy"]
 EXPOSE 8080
